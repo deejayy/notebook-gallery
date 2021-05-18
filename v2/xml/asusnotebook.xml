@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>asusnotebook</shopName>
+	<shopDomain>http://asusnotebook.hu</shopDomain>
+	<shopListUrl>http://asusnotebook.hu/termekek/kategoria=notebook/name=ASC?egylapon=1000</shopListUrl>
+	<shopPqListNode>.listazas_content h1 a[href!="#"]</shopPqListNode>
+	<shopPqProductName>.content_title</shopPqProductName>
+	<shopPqPriceField>.eredeti_ar_brutto2:first span</shopPqPriceField>
+	<shopPqParameterNames>.tulajd_name, .kibont_name</shopPqParameterNames>
+	<shopPqParameterValues>.tulajd_ertek, .kibont_ertek</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Merevlemez'>HDD</trDefine>
+		<trDefine title='Optikai meghajtók'>ODD</trDefine>
+		<trDefine title='Kijelző'>TFT</trDefine>
+		<trDefine title='Grafikus kártya'>GPU</trDefine>
+		<trDefine title='Hangszoró'>Audio</trDefine>
+		<trDefine title='Webkamera'>Kamera</trDefine>
+		<trDefine title='W-lan / Wifi'>WLAN</trDefine>
+		<trDefine title='VGA csatlakozó'>VGA ki</trDefine>
+		<trDefine title='USB csatlakozók'>USB</trDefine>
+		<trDefine title='HDMI csatlakozó'>HDMI</trDefine>
+		<trDefine title='Kártyaolvasó'>CR</trDefine>
+		<trDefine title='Nyelvezet'>Nyelv</trDefine>
+		<trDefine title='Akkumulátor'>Akku</trDefine>
+		<trDefine title='Csomag tartalma'>Tartozék</trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+		<trDefine title='Processzor gyártó'>CPU Gyártó</trDefine>
+		<trDefine title='Processzor tipus'>CPU Típus</trDefine>
+		<trDefine title='Processzor sebesség'>CPU Seb.</trDefine>
+		<trDefine title='Memória tipus'>RAM Típus</trDefine>
+		<trDefine title='Megjegyzés'>Egyéb</trDefine>
+		<trDefine title='Merevlemez tipus'>HDD Típus</trDefine>
+		<trDefine title='Grafikus kártya tipusa'>GPU Típus</trDefine>
+		<trDefine title='Bluetooth'>BT</trDefine>
+		<trDefine title='Grafikus memória mérete'>GPU Mem</trDefine>
+		<trDefine title='Mini D-SUB csatlakozó'>Portok</trDefine>
+		<trDefine title='Képernyő méret'>TFT Méret</trDefine>
+		<trDefine title='Felbontás'>TFT Felb.</trDefine>
+		<trDefine title='VGA'>VGA ki</trDefine>
+		<trDefine title='LAN (RJ45)'>LAN</trDefine>
+		<trDefine title='Adapter'>AC</trDefine>
+		<trDefine title='Nettó súly'>Súly</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>TFT Méret</poName>
+		<poName>TFT Felb.</poName>
+		<poName>CPU</poName>
+		<poName>CPU Gyártó</poName>
+		<poName>CPU Típus</poName>
+		<poName>CPU Seb.</poName>
+		<poName>RAM</poName>
+		<poName>RAM Típus</poName>
+		<poName>HDD</poName>
+		<poName>HDD Típus</poName>
+		<poName>GPU</poName>
+		<poName>GPU Típus</poName>
+		<poName>GPU Mem</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+	</shopParameterOrder>
+</shop>

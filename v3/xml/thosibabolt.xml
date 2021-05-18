@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2012-10-27 -->
+	<shopName>toshibabolt</shopName>
+	<shopDomain>http://www.toshibabolt.hu/</shopDomain>
+	<shopListUrl>http://www.toshibabolt.hu/index.php/laptop.html?limit=all</shopListUrl>
+	<shopPqListNode>.item .name a</shopPqListNode>
+	<shopPqProductName>.product-info-box .value-text .name</shopPqProductName>
+	<shopPqPriceField>.netto .price</shopPqPriceField>
+	<shopPqParameterNames>div.description label</shopPqParameterNames>
+	<shopPqParameterValues>div.description div:not(.description-title)</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='CPU'></trDefine>
+		<trDefine title='Képernyő'>TFT</trDefine>
+		<trDefine title='HDD'></trDefine>
+		<trDefine title='RAM'></trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+		<trDefine title='Méret'></trDefine>
+		<trDefine title='Wifi™'>WLAN</trDefine>
+		<trDefine title='USB port'>USB</trDefine>
+		<trDefine title='Akku cella'>Akku</trDefine>
+		<trDefine title='Express card'>ExpressCard</trDefine>
+		<trDefine title='HDMI'></trDefine>
+		<trDefine title='HSUPA'>HSUPA</trDefine>
+		<trDefine title='Bluetooth™'>BT</trDefine>
+		<trDefine title='Szín'></trDefine>
+		<trDefine title='Ujjlenyomat'>FP</trDefine>
+		<trDefine title='IEE1394 port'>FW</trDefine>
+		<trDefine title='Súly'></trDefine>
+		<trDefine title='Memória olvasó'>CR</trDefine>
+		<trDefine title='Beépített kamera'>Kamera</trDefine>
+		<trDefine title='Beépített mikrofon'>Mikrofon</trDefine>
+		<trDefine title='SZÍN'>Szín</trDefine>
+		<trDefine title='S-video'>SVIDEO</trDefine>
+		<trDefine title='Arcfelismerő szoftver'>-</trDefine>
+		<trDefine title='RJ-45 port'>LAN</trDefine>
+		<trDefine title='DVD'>ODD</trDefine>
+		<trDefine title='Blu-ray'>ODD BR</trDefine>
+		<trDefine title='HSDPA'>HSDPA</trDefine>
+		<trDefine title='Memória kártya'>CR</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>CPU</poName>
+		<poName>RAM</poName>
+		<poName>HDD</poName>
+		<poName>GPU</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>ODD BR</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+</shop>

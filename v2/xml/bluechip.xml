@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>bluechip</shopName>
+	<shopDomain>http://www.bluechip.hu</shopDomain>
+	<shopListUrl>http://www.bluechip.hu/termekek/notebook</shopListUrl>
+	<shopPqListNode>.listname b a</shopPqListNode>
+	<shopPqProductName>p .black14bold</shopPqProductName>
+	<shopPqPriceField>#pricebox .gray10</shopPqPriceField>
+	<shopPqParameterNames>#properties_box tr td:nth-child(1)</shopPqParameterNames>
+	<shopPqParameterValues>#properties_box tr td:nth-child(2)</shopPqParameterValues>
+	<shopTransliterateParameters>
+			<trDefine title='Felhasználási terület'>Kategória</trDefine>
+			<trDefine title='Processzor'>CPU</trDefine>
+			<trDefine title='Chipkészlet'>Chipset</trDefine>
+			<trDefine title='Kijelző'>TFT</trDefine>
+			<trDefine title='3D kijelző'>TFT 3D</trDefine>
+			<trDefine title='Memória'>RAM</trDefine>
+			<trDefine title='Szabad memória hely'>RAM Slot</trDefine>
+			<trDefine title='Merevlemez'>HDD</trDefine>
+			<trDefine title='Optikai meghajtó'>ODD</trDefine>
+			<trDefine title='Operációs rendszer'>OS</trDefine>
+			<trDefine title='Hangkártya'>Audio</trDefine>
+			<trDefine title='Mikrofon'>Mikrofon</trDefine>
+			<trDefine title='Videokártya'>GPU</trDefine>
+			<trDefine title='Webkamera'>Kamera</trDefine>
+			<trDefine title='Wi-Fi'>WLAN</trDefine>
+			<trDefine title='Bluetooth'>BT</trDefine>
+			<trDefine title='3G'>HSDPA</trDefine>
+			<trDefine title='Csatlakozó'>Portok</trDefine>
+			<trDefine title='Lan'>LAN</trDefine>
+			<trDefine title='USB 3.0'>USB 3</trDefine>
+			<trDefine title='Akkumulátor'>Akku</trDefine>
+			<trDefine title='Garancia'>Gar.</trDefine>
+			<trDefine title='Extra SSD'>SSD</trDefine>
+			<trDefine title='Memóriakártya olvasó'>CR</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+			<poName>TermékNév</poName>
+			<poName>Ár</poName>
+			<poName>TFT</poName>
+			<poName>TFT 3D</poName>
+			<poName>CPU</poName>
+			<poName>RAM</poName>
+			<poName>RAM Slot</poName>
+			<poName>HDD</poName>
+			<poName>GPU</poName>
+			<poName>Súly</poName>
+			<poName>Gar.</poName>
+			<poName>Akku</poName>
+			<poName>ODD</poName>
+			<poName>OS</poName>
+	</shopParameterOrder>
+</shop>

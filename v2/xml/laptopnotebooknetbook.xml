@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>laptopnotebooknetbook</shopName>
+	<shopDomain>http://www.laptop-notebook-netbook.hu/</shopDomain>
+	<shopListUrl>http://www.laptop-notebook-netbook.hu/acer-laptop-termekek/acer-laptop/?p=%d</shopListUrl>
+	<shopListUrlCount>18</shopListUrlCount>
+	<shopListUrlCountStart>0</shopListUrlCountStart>
+	<shopPqListNode>.product h2 a</shopPqListNode>
+	<shopPqProductName>#product_big h1.green-grad</shopPqProductName>
+	<shopPqPriceField>.prc .ptop:first</shopPqPriceField>
+	<shopPriceMultiplier>1</shopPriceMultiplier>
+	<shopPqParameterNames>.head</shopPqParameterNames>
+	<shopPqParameterValues>.desc</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Termék neve'>-</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Kijelző mérete'>TFT Méret</trDefine>
+		<trDefine title='Kijelző felbontása'>TFT Felb.</trDefine>
+		<trDefine title='Kijelző leírása'>TFT Jell</trDefine>
+		<trDefine title='VGA típusa'>GPU</trDefine>
+		<trDefine title='Hangrendszer'>-</trDefine>
+		<trDefine title='Kommunikáció'>LAN</trDefine>
+		<trDefine title='Akkumulátor, üzemidő'>Akku</trDefine>
+		<trDefine title='Bemeneti/Kimeneti csatlakozók'>Portok</trDefine>
+		<trDefine title='Billentyűzet'>Bill.</trDefine>
+		<trDefine title='Súly és méretek'>Súly</trDefine>
+		<trDefine title='Szoftver'>-</trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+		<trDefine title='Optikai egység'>ODD</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT Méret</poName>
+		<poName>TFT Felb.</poName>
+		<poName>TFT Jell</poName>
+		<poName>CPU</poName>
+		<poName>RAM</poName>
+		<poName>HDD</poName>
+		<poName>SSD</poName>
+		<poName>GPU</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+	<prepareProduct><![CDATA[
+		$product['.printing']->remove();
+		$href = $product['#pt_0']->attr('href');
+		preg_match('/\/([0-9]+)\/$/', $href, $r);
+		$product_id = $r[1];
+		helper::log($product_id);
+		$myDownloader = new downloader();
+		$newdoc = $myDownloader->getCache('http://www.laptop-notebook-netbook.hu/acer-laptop-termekek/?xjxfun=showSpec&xjxargs[]=' . $product_id, 'laptopnotebooknetbook' . DIRECTORY_SEPARATOR . 'spec-' . $product_id);
+		$domdoc = new DOMDocument();
+		$domdoc->loadXML($newdoc);
+		$product->append($domdoc->getElementsByTagName('cmd')->item(0)->nodeValue);
+	]]></prepareProduct>
+</shop>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>laptophu</shopName>
+	<shopDomain>http://www.laptop.hu</shopDomain>
+	<shopListUrl>http://www.laptop.hu/laptopok?page=%d</shopListUrl>
+	<shopListUrlCount>22</shopListUrlCount>
+	<shopListUrlCountStart>0</shopListUrlCountStart>
+	<shopPqListNode>h2 a.teaser-title</shopPqListNode>
+	<shopPqProductName>.termek-title a</shopPqProductName>
+	<shopPqPriceField>.netto-ar span</shopPqPriceField>
+	<shopPriceMultiplier>1</shopPriceMultiplier>
+	<shopPqParameterNames>.shop_parameter</shopPqParameterNames>
+	<shopPqParameterValues>.shop_ertek</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Merevlemez'>HDD</trDefine>
+		<trDefine title='Kijelző'>TFT</trDefine>
+		<trDefine title='Videokártya'>GPU</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='Szín'></trDefine>
+		<trDefine title='Jótállás'>Gar.</trDefine>
+		<trDefine title='Bluetooth'>BT</trDefine>
+		<trDefine title='Express Card'>ExpressCard</trDefine>
+		<trDefine title='Kártyaolvasó'>CR</trDefine>
+		<trDefine title='USB'></trDefine>
+		<trDefine title='Használt/Új'>Állapot</trDefine>
+		<trDefine title='Billentyűzet'>Bill.</trDefine>
+		<trDefine title='Pozicionáló eszköz'>Touchpad</trDefine>
+		<trDefine title='Modem'></trDefine>
+		<trDefine title='LAN'></trDefine>
+		<trDefine title='Wireless LAN'>WLAN</trDefine>
+		<trDefine title='Egyéb portok'>Portok</trDefine>
+		<trDefine title='Család'></trDefine>
+		<trDefine title='Sorozat'>Modell</trDefine>
+		<trDefine title='Akkumulátor'>Akku</trDefine>
+		<trDefine title='Webkamera'>Kamera</trDefine>
+		<trDefine title='Numerikus billentyűzet'>Bill. Num</trDefine>
+		<trDefine title='Dokkcsatlakozó'>Dokk</trDefine>
+		<trDefine title='TV-kimenet'>TV ki</trDefine>
+		<trDefine title='Firewire'>FW</trDefine>
+		<trDefine title='Soros port'>RS232</trDefine>
+		<trDefine title='Párhuzamos port'>LPT</trDefine>
+		<trDefine title='PCMCIA'></trDefine>
+		<trDefine title='HDMI'></trDefine>
+		<trDefine title='e-SATA'>eSata</trDefine>
+		<trDefine title='Ujjlenyomat-olvasó'>FP</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>CPU</poName>
+		<poName>RAM</poName>
+		<poName>HDD</poName>
+		<poName>GPU</poName>
+		<poName>ODD</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+	<prepareProduct><![CDATA[
+		$spec = $product['.technikai-jellemzok-tablazat li'];
+		foreach ($spec as $specLine) {
+			pq($specLine)->html('<div class=\'shop_parameter\'>' .
+				implode('</div><div class=\'shop_ertek\'>', preg_split('/:/', pq($specLine)->text())) .
+				'</div>'
+			);
+		}
+	]]></prepareProduct>
+</shop>

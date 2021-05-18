@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-06-12 -->
+	<shopName>ramiris</shopName>
+	<shopDomain>http://ramiris.eu/kereses/</shopDomain>
+	<shopListUrl>http://ramiris.eu/kereses/pag_cikkcsoport.aspx?ccsop=NOT&amp;p=%d&amp;ps=100</shopListUrl>
+	<shopListUrlCount>3</shopListUrlCount>
+	<shopPqListNode>.cl_name h1 a</shopPqListNode>
+	<shopPqProductName>#cikkreszletesLeiras h1</shopPqProductName>
+	<shopPqPriceField>.price</shopPqPriceField>
+	<shopPriceMultiplier>1</shopPriceMultiplier>
+	<shopPqParameterNames>.CKR-tulajdonsag .CKR-tul-item:even</shopPqParameterNames>
+	<shopPqParameterValues>.CKR-tulajdonsag .CKR-tul-item:odd</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Kijelző felbontás'>TFT Felb.</trDefine>
+		<trDefine title='Kijelző méret'>TFT Méret</trDefine>
+		<trDefine title='Kijelző típus'>TFT Típus</trDefine>
+		<trDefine title='Kijelző felület'>TFT Arány</trDefine>
+		<trDefine title='CPU gyártó'>CPU Gyártó</trDefine>
+		<trDefine title='CPU család'>CPU Család</trDefine>
+		<trDefine title='CPU típus'>CPU Típus</trDefine>
+		<trDefine title='Memória mennyiség'>RAM Méret</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Memória foglalatok száma'>RAM Slot</trDefine>
+		<trDefine title='Háttértár típus'>HDD</trDefine>
+		<trDefine title='Háttértár méret'>HDD Méret</trDefine>
+		<trDefine title='Háttértár fordulatszám'>HDD Seb.</trDefine>
+		<trDefine title='VGA típus'>GPU</trDefine>
+		<trDefine title='Chipset gyártó'>Chipset</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='WiFi'>WLAN</trDefine>
+		<trDefine title='Felbontás'>Kamera Felb.</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='USB 2.0 ki'>USB</trDefine>
+		<trDefine title='D-Sub ki'>VGA ki</trDefine>
+		<trDefine title='Jack 3,5mm'>Audio</trDefine>
+		<trDefine title='Hálózati csatlakozás'>LAN</trDefine>
+		<trDefine title='Memória kártyaolvasó'>CR</trDefine>
+		<trDefine title='Kensington zár foglalat'>Kensington</trDefine>
+		<trDefine title='Cellák száma'>Akku cella</trDefine>
+		<trDefine title='Anyag'></trDefine>
+		<trDefine title='Alap szín'>Szín</trDefine>
+		<trDefine title='Szélesség (max.)'>Széles</trDefine>
+		<trDefine title='Magasság (max.)'>Magas</trDefine>
+		<trDefine title='Mélység (max.)'>Mély</trDefine>
+		<trDefine title='Nettó súly'>Súly</trDefine>
+		<trDefine title='Család'></trDefine>
+		<trDefine title='Memória modulok'>RAM Modul</trDefine>
+		<trDefine title='Töltő teljesítmény'>AC</trDefine>
+		<trDefine title='Hangszóró'></trDefine>
+		<trDefine title='Mikrofon'></trDefine>
+		<trDefine title='Numerikus billentyűzet'>Bill. num</trDefine>
+		<trDefine title='HDMI ki'>HDMI</trDefine>
+		<trDefine title='USB 3.0 ki'>USB 3</trDefine>
+		<trDefine title='Technológia'></trDefine>
+		<trDefine title='3G'>HSDPA</trDefine>
+		<trDefine title='2.Háttértár típus'>HDD 2</trDefine>
+		<trDefine title='2.Háttértár méret'>HDD 2 Méret</trDefine>
+		<trDefine title='Bluetooth'>BT</trDefine>
+		<trDefine title='Thunderbolt ki'>TB</trDefine>
+		<trDefine title='Csomag tartalma'>Egyéb</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+			<poName>TermékNév</poName>
+			<poName>Ár</poName>
+			<poName>TFT Felb.</poName>
+			<poName>TFT Méret</poName>
+			<poName>TFT Típus</poName>
+			<poName>TFT Arány</poName>
+			<poName>CPU Gyártó</poName>
+			<poName>CPU Család</poName>
+			<poName>CPU Típus</poName>
+			<poName>RAM Méret</poName>
+			<poName>RAM</poName>
+			<poName>RAM Slot</poName>
+			<poName>HDD</poName>
+			<poName>HDD Méret</poName>
+			<poName>HDD Seb.</poName>
+			<poName>GPU</poName>
+			<poName>Súly</poName>
+			<poName>Akku cella</poName>
+			<poName>OS</poName>
+			<poName>ODD</poName>
+			<poName>Chipset</poName>
+	</shopParameterOrder>
+</shop>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>notebookhu</shopName>
+	<shopDomain></shopDomain>
+	<shopListUrl>http://www.notebook.hu/notebook?limit=30&amp;p=%d</shopListUrl>
+	<shopListUrlCount>6</shopListUrlCount>
+	<shopPqListNode>.product-name a</shopPqListNode>
+	<shopPqProductName>.product-name h1</shopPqProductName>
+	<shopPqPriceField>.price:first</shopPqPriceField>
+	<shopPriceMultiplier>0.7874</shopPriceMultiplier>
+	<shopPqParameterNames>.data-table .label</shopPqParameterNames>
+	<shopPqParameterValues>.data-table .data</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='Chipkészlet'>Chipset</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Merevlemez'>HDD</trDefine>
+		<trDefine title='Kijelző méret'>TFT</trDefine>
+		<trDefine title='Grafikus vezérlő'>GPU</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Bluetooth'>BT</trDefine>
+		<trDefine title='Videó'>TV ki</trDefine>
+		<trDefine title='Audió'>Audio</trDefine>
+		<trDefine title='VGA port'>VGA ki</trDefine>
+		<trDefine title='HDMI port'>HDMI</trDefine>
+		<trDefine title='Display port'>DP</trDefine>
+		<trDefine title='Ujjlenyomat olvasó'>FP</trDefine>
+		<trDefine title='Webkamera'>Kamera</trDefine>
+		<trDefine title='Kártyaolvasó'>CR</trDefine>
+		<trDefine title='Express Card Reader'>ExpressCard</trDefine>
+		<trDefine title='Firewire'>FW</trDefine>
+		<trDefine title='E-SATA'>eSata</trDefine>
+		<trDefine title='USB port'>USB</trDefine>
+		<trDefine title='Akkumulátor'>Akku</trDefine>
+		<trDefine title='Extrák'>Egyéb</trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>CPU</poName>
+		<poName>RAM</poName>
+		<poName>HDD</poName>
+		<poName>GPU</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+</shop>

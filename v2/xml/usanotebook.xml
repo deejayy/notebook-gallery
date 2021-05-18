@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2012-10-27 -->
+	<shopName>usanotebook</shopName>
+	<shopDomain>http://www.usanotebook.hu/</shopDomain>
+	<shopListUrl>http://www.usanotebook.hu/laptop/index.php?mode=useprm&amp;tplDt=subcat|%d||&amp;prmID=3;;;;;</shopListUrl>
+	<shopListUrlCount>27</shopListUrlCount>
+	<shopPqListNode>.tboxPRtit a</shopPqListNode>
+	<shopPqProductName>h1 a</shopPqProductName>
+	<shopPqPriceField>.prcBr, .prcNtAkc.BD span</shopPqPriceField>
+	<shopPriceMultiplier>0.7874</shopPriceMultiplier>
+	<shopPqParameterNames>.tjName</shopPqParameterNames>
+	<shopPqParameterValues>.tjValue</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Általános jellemzők Felhasználás'>Kategória</trDefine>
+		<trDefine title='Általános jellemzők Típus'>Típus</trDefine>
+		<trDefine title='Általános jellemzők Állapot'>Állapot</trDefine>
+		<trDefine title='Általános jellemzők Szín'>Szín</trDefine>
+		<trDefine title='Általános jellemzők Akciós termék'>Akció</trDefine>
+		<trDefine title='Processzor Gyártó'>CPU Gyártó</trDefine>
+		<trDefine title='Processzor Család'>CPU Család</trDefine>
+		<trDefine title='Processzor Típus'>CPU Típus</trDefine>
+		<trDefine title='Processzor Paraméterek'>CPU +</trDefine>
+		<trDefine title='Memória Méret'>RAM Méret</trDefine>
+		<trDefine title='Memória Frekvencia'>RAM Frek.</trDefine>
+		<trDefine title='Memória Jellemzők'>RAM Jell.</trDefine>
+		<trDefine title='Merevlemez Méret'>HDD Méret</trDefine>
+		<trDefine title='Merevlemez Tipus'>HDD Típus</trDefine>
+		<trDefine title='Merevlemez Jellemzők'>HDD Jell.</trDefine>
+		<trDefine title='Optikai meghajtó Típus'>ODD</trDefine>
+		<trDefine title='Kijelző Méret'>TFT Méret</trDefine>
+		<trDefine title='Kijelző Felbontás'>TFT Felb.</trDefine>
+		<trDefine title='Kijelző Típus'>TFT Típus</trDefine>
+		<trDefine title='Kijelző Jellemzők'>TFT Jell.</trDefine>
+		<trDefine title='Videókártya Gyártó'>GPU Gyártó</trDefine>
+		<trDefine title='Videókártya Típus'>GPU Típus</trDefine>
+		<trDefine title='Videókártya Jelleg'>GPU Jelleg</trDefine>
+		<trDefine title='Akkumulátor Jellemzők'>Akku</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Chipkészlet'>Chipset</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Billentyűzet nyelve'>Nyelv</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Audio'>Audio</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Portok/egyebek'>Portok</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Port jellemzők'>Portok +</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Bővítőhelyek'>ExpressCard</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Extrák'>Tartozék</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Hálózat'>LAN</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Hálózati jellemzők'>LAN +</trDefine>
+		<trDefine title='Operációs rendszer Típus'>OS</trDefine>
+		<trDefine title='Fizikai paraméterek Méret'>Méret</trDefine>
+		<trDefine title='Fizikai paraméterek Súly'>Súly</trDefine>
+		<trDefine title='Garancia Időtartam'>Gar.</trDefine>
+		<trDefine title='Garancia Típus'>Gar. Típus</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Mutató eszköz'>Touchpad</trDefine>
+		<trDefine title='Egyéb szoftverek Gyártói szoftverek'>Egyéb</trDefine>
+		<trDefine title='Egyéb technikai paraméretek Billentyűzet jellemzői'>Bill.</trDefine>
+		<trDefine title='Fizikai paraméterek Szín'>Szín</trDefine>
+		<trDefine title='Operációs rendszer Jellemzők'>OS Jell.</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT Méret</poName>
+		<poName>TFT Felb.</poName>
+		<poName>TFT Típus</poName>
+		<poName>TFT Jell.</poName>
+		<poName>CPU Gyártó</poName>
+		<poName>CPU Család</poName>
+		<poName>CPU Típus</poName>
+		<poName>CPU +</poName>
+		<poName>RAM Méret</poName>
+		<poName>RAM Frek.</poName>
+		<poName>RAM Jell.</poName>
+		<poName>HDD Méret</poName>
+		<poName>HDD Típus</poName>
+		<poName>HDD Jell.</poName>
+		<poName>GPU Gyártó</poName>
+		<poName>GPU Típus</poName>
+		<poName>GPU Jelleg</poName>
+		<poName>GPU Jell.</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Gar. Típus</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>Chipset</poName>
+	</shopParameterOrder>
+	<prepareProduct><![CDATA[
+		$tds = $product['#p01 tr'];
+		foreach ($tds as $td) {
+			if (pq($td)->find('.spectit')->length > 0) {
+				$pre = pq($td)->find('.spectit')->html();
+			}
+			if (pq($td)->find('.tjName')->length > 0) {
+				pq($td)->find('.tjName')->html($pre . ' ' . pq($td)->find('.tjName')->html());
+			}
+		}
+	]]></prepareProduct>
+</shop>

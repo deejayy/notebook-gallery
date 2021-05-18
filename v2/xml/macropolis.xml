@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2013-10-14 -->
+	<shopName>macropolis</shopName>
+	<shopDomain>http://www.macropolis.hu</shopDomain>
+	<shopListUrl>http://www.macropolis.hu/index.php?kat=1&amp;keres=1</shopListUrl>
+	<shopPqListNode>.termek_nev .start_ikon_fejlec</shopPqListNode>
+	<shopPqProductName>.h2_cim</shopPqProductName>
+	<shopPqPriceField>.termek_ar_netto</shopPqPriceField>
+	<shopPqParameterNames>.adatlap_bal</shopPqParameterNames>
+	<shopPqParameterValues>.adatlap</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Processzor típus'>CPU Típus</trDefine>
+		<trDefine title='Processzor frekvencia'>CPU Frek.</trDefine>
+		<trDefine title='Memória mérete'>RAM Méret</trDefine>
+		<trDefine title='Memória típusa'>RAM Típus</trDefine>
+		<trDefine title='Merevlemez mérete'>HDD Méret</trDefine>
+		<trDefine title='Merevlemez sebessége'>HDD Seb.</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='Floppy'>-</trDefine>
+		<trDefine title='Kijelző méret'>TFT Méret</trDefine>
+		<trDefine title='Kijelző felbontás'>TFT Felb.</trDefine>
+		<trDefine title='Videókártya típusa'>GPU Típus</trDefine>
+		<trDefine title='Videókártya mérete'>GPU RAM</trDefine>
+		<trDefine title='Hangkártya'>Audio</trDefine>
+		<trDefine title='Hálózati kártya'>LAN</trDefine>
+		<trDefine title='WLAN kártya'>WLAN</trDefine>
+		<trDefine title='Kártyaolvasó'>CR</trDefine>
+		<trDefine title='Akkumulátor'>Akku</trDefine>
+		<trDefine title='Tömeg'>Súly</trDefine>
+		<trDefine title='Billentyűzet'>Bill.</trDefine>
+		<trDefine title='Szoftver'>OS</trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+		<trDefine title='Garancia-kiterjesztés(ek)'>-</trDefine>
+		<trDefine title='Extrák'>Egyéb</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT Méret</poName>
+		<poName>TFT Felb.</poName>
+		<poName>CPU Típus</poName>
+		<poName>CPU Frek.</poName>
+		<poName>RAM Méret</poName>
+		<poName>RAM Típus</poName>
+		<poName>HDD Méret</poName>
+		<poName>HDD Seb.</poName>
+		<poName>GPU Típus</poName>
+		<poName>GPU RAM</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+</shop>

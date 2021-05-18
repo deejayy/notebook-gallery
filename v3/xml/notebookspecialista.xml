@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2012-10-27 -->
+	<shopName>notebookspecialista</shopName>
+	<shopDomain>http://www.notebookspecialista.hu/</shopDomain>
+	<shopListUrl>http://www.notebookspecialista.hu/?id=termekek&amp;markak[]=1&amp;markak[]=443&amp;markak[]=6&amp;markak[]=5&amp;markak[]=2&amp;markak[]=3&amp;markak[]=4&amp;markak[]=225&amp;markak[]=1003&amp;markak[]=1282&amp;markak[]=1293&amp;markak[]=257&amp;markak[]=1891&amp;mlsz=1&amp;al_menu=notebook_kereso&amp;e=1</shopListUrl>
+	<shopProductUrlStripGet>1</shopProductUrlStripGet>
+	<shopPqListNode>a.termeknev</shopPqListNode>
+	<shopPqProductName>.termeknev:first</shopPqProductName>
+	<shopPqPriceField>#ar.ajanlott4</shopPqPriceField>
+	<shopPqParameterNames>#jellemzok_td .termek_reszletes_fejlec</shopPqParameterNames>
+	<shopPqParameterValues>#jellemzok_td span.termek_leiras</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Ajánlatunk:'>-</trDefine>
+		<trDefine title='Extrák'>-</trDefine>
+		<trDefine title='Leírás'>-</trDefine>
+		<trDefine title='Gyártó'>-</trDefine>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='Chipkészlet'>Chipset</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='Kijelző'>TFT</trDefine>
+		<trDefine title='Winchester'>HDD</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='Videókártya'>GPU</trDefine>
+		<trDefine title='Hangkártya'>Audio</trDefine>
+		<trDefine title='Billentyűzet'>Bill.</trDefine>
+		<trDefine title='Akku/üzemidő'>Akku</trDefine>
+		<trDefine title='Interfész'>Portok</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Irodai programcsomag'>-</trDefine>
+		<trDefine title='Vírusvédelem'>-</trDefine>
+		<trDefine title='Szolgáltatás'>-</trDefine>
+		<trDefine title='Garancia'>Gar.</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>CPU</poName>
+		<poName>RAM</poName>
+		<poName>HDD</poName>
+		<poName>GPU</poName>
+		<poName>Súly</poName>
+		<poName>Gar.</poName>
+		<poName>Akku</poName>
+		<poName>ODD</poName>
+		<poName>OS</poName>
+	</shopParameterOrder>
+	<prepareProduct><![CDATA[
+		$product['select']->remove();
+		$product['img']->remove();
+		$product['script']->remove();
+	]]></prepareProduct>
+</shop>

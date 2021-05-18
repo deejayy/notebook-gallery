@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop><!-- reviewed at 2012-10-27 -->
+	<shopName>notebookstore</shopName>
+	<shopDomain>http://notebookstore.hu/Notebook/</shopDomain>
+	<shopListUrl>http://notebookstore.hu/kereses/pag_cikkcsoport.aspx?ccsop=COMNOT&amp;ps=90&amp;p=%d</shopListUrl>
+	<shopListUrlCount>6</shopListUrlCount>
+	<shopPqListNode>.nsCikkNev a</shopPqListNode>
+	<shopPqProductName>#myPrint h1</shopPqProductName>
+	<shopPqPriceField>#ctl00_CON_default_UCO_CikkReszletek1_RPT_reszletek_ctl00_PAN_reszl div:contains("Fizet")</shopPqPriceField>
+	<shopPriceMultiplier>0.7874</shopPriceMultiplier>
+	<shopPqParameterNames>.nsCrMatmod</shopPqParameterNames>
+	<shopPqParameterValues>.nsCrMatmodErtek</shopPqParameterValues>
+	<shopTransliterateParameters>
+		<trDefine title='Termék osztály'>Kategória</trDefine>
+		<trDefine title='Gyártói ajánlás'>Egyéb</trDefine>
+		<trDefine title='Processzor'>CPU</trDefine>
+		<trDefine title='ProcesszorGyártó'>CPU Gyártó</trDefine>
+		<trDefine title='ProcesszorCsalád'>CPU Család</trDefine>
+		<trDefine title='ProcesszorMagok száma'>CPU Magok</trDefine>
+		<trDefine title='ProcesszorÓrajel'>CPU Frek.</trDefine>
+		<trDefine title='ProcesszorTurbóórajel'>CPU Turbo</trDefine>
+		<trDefine title='ProcesszorSpeed step'>CPU SS</trDefine>
+		<trDefine title='ProcesszorCache'>CPU Cache</trDefine>
+		<trDefine title='ProcesszorMax memória'>CPU RAM Max</trDefine>
+		<trDefine title='Processzor64 bit támogatás'>CPU 64</trDefine>
+		<trDefine title='ProcesszorTechnológia'>CPU Tech</trDefine>
+		<trDefine title='ProcesszorMax fogyasztás'>CPU Wh</trDefine>
+		<trDefine title='ProcesszorVirtualizáció'>CPU Virt</trDefine>
+		<trDefine title='ProcesszorHyperthreading'>CPU HT</trDefine>
+		<trDefine title='Kijelző'>TFT</trDefine>
+		<trDefine title='KijelzőSzabvány'>TFT Szabány</trDefine>
+		<trDefine title='KijelzőKépátló'>TFT Méret</trDefine>
+		<trDefine title='KijelzőFelület'>TFT Méret +</trDefine>
+		<trDefine title='KijelzőFelbontás'>TFT Felb.</trDefine>
+		<trDefine title='KijelzőVizszintes felbontás'>TFT X</trDefine>
+		<trDefine title='KijelzőFüggőleges felbontás'>TFT Y</trDefine>
+		<trDefine title='KijelzőKéparány'>TFT Arány</trDefine>
+		<trDefine title='KijelzőTechnológia'>TFT Típus</trDefine>
+		<trDefine title='KijelzőÉrintő'>TFT Touch</trDefine>
+		<trDefine title='KijelzőBeláthatóság'>TFT Fok</trDefine>
+		<trDefine title='KijelzőSzínhű'>TFT Színhű</trDefine>
+		<trDefine title='Videó vezérlő'>GPU</trDefine>
+		<trDefine title='Videó vezérlőGyártó'>GPU Gyártó</trDefine>
+		<trDefine title='Videó vezérlőCsalád'>GPU Család</trDefine>
+		<trDefine title='Videó vezérlőTipusa'>GPU Típus</trDefine>
+		<trDefine title='Videó vezérlőSaját memória'>GPU Mem</trDefine>
+		<trDefine title='Videó vezérlőMemória tipus'>GPU Mem Típus</trDefine>
+		<trDefine title='Videó vezérlőTechnológia'>GPU Tech</trDefine>
+		<trDefine title='Videó vezérlőDirect x'>GPU DX</trDefine>
+		<trDefine title='Videó vezérlőShader model'>GPU Shader</trDefine>
+		<trDefine title='Videó vezérlőOpen gl'>GPU OGL</trDefine>
+		<trDefine title='Memória'>RAM</trDefine>
+		<trDefine title='MemóriaMemória mérete'>RAM Méret</trDefine>
+		<trDefine title='MemóriaMemória tipusa'>RAM Típus</trDefine>
+		<trDefine title='Háttértár'>HDD</trDefine>
+		<trDefine title='Első tipusa'>HDD Típus</trDefine>
+		<trDefine title='Optikai meghajtó'>ODD</trDefine>
+		<trDefine title='Optikai meghajtóElhelyezkedés'>ODD Hely</trDefine>
+		<trDefine title='Optikai meghajtóCd képesség'>ODD CD</trDefine>
+		<trDefine title='Optikai meghajtóDvd képesség'>ODD DVD</trDefine>
+		<trDefine title='Optikai meghajtóBlueray képesség'>ODD BR</trDefine>
+		<trDefine title='Hálózat'>LAN</trDefine>
+		<trDefine title='Vezeték nélküli hálózat'>WLAN</trDefine>
+		<trDefine title='Bluetooth'>BT</trDefine>
+		<trDefine title='Kártyaolvasó'>CR</trDefine>
+		<trDefine title='Össz USB'>USB</trDefine>
+		<trDefine title='VGA'>VGA ki</trDefine>
+		<trDefine title='HDMI'>HDMI</trDefine>
+		<trDefine title='Hangkimenet'>Audio</trDefine>
+		<trDefine title='Beépített mikrofon'>Mikrofon</trDefine>
+		<trDefine title='Beépített webkamera'>Kamera</trDefine>
+		<trDefine title='Billentyűzet nyelv'>Bill.</trDefine>
+		<trDefine title='Billentyűzet szine'>Bill. Szín</trDefine>
+		<trDefine title='Gombok száma'>Bill. Gombok</trDefine>
+		<trDefine title='Fingerprint'>FP</trDefine>
+		<trDefine title='Kensington'></trDefine>
+		<trDefine title='Akkumulátor'>Akku</trDefine>
+		<trDefine title='AkkumulátorCellák száma'>Akku Cella</trDefine>
+		<trDefine title='AkkumulátorTeljesítmény'>Akku Wh</trDefine>
+		<trDefine title='AkkumulátorTipusa'>Akku Típus</trDefine>
+		<trDefine title='AkkumulátorMax üzemidő'>Akku Idő</trDefine>
+		<trDefine title='Operációs rendszer'>OS</trDefine>
+		<trDefine title='Operációs rendszerCsalád'>OS Család</trDefine>
+		<trDefine title='Operációs rendszerTipus'>OS Típus</trDefine>
+		<trDefine title='Operációs rendszerNyelv'>OS Nyelv</trDefine>
+		<trDefine title='Operációs rendszerBitszám'>OS 32/64</trDefine>
+		<trDefine title='Tömeg'>Súly</trDefine>
+		<trDefine title='X méret'>Széles</trDefine>
+		<trDefine title='Y méret'>Mély</trDefine>
+		<trDefine title='Z méret'>Magas</trDefine>
+		<trDefine title='Modell'>Modell</trDefine>
+		<trDefine title='Modem'>Modem</trDefine>
+		<trDefine title='USB 3-k száma'>USB 3</trDefine>
+		<trDefine title='Firewire'>FW</trDefine>
+		<trDefine title='Billentyűzet világítás'>Backlit KB</trDefine>
+		<trDefine title='Multitouch képesség'>Multitouch</trDefine>
+		<trDefine title='Töltő'>AC</trDefine>
+		<trDefine title='Fordulatszám'>HDD RPM</trDefine>
+		<trDefine title='Mobil hálózat'>HSDPA</trDefine>
+		<trDefine title='Express card'>ExpressCard</trDefine>
+		<trDefine title='Dokkolható'>Dokk</trDefine>
+		<trDefine title='E-sata'>eSata</trDefine>
+		<trDefine title='Display port'>DP</trDefine>
+		<trDefine title='Mikrofon bemenet'>Mikrofon be</trDefine>
+		<trDefine title='Automata fényerőszabályzó'>-</trDefine>
+		<trDefine title='Numerikus billentyűzet'>Bill. Num</trDefine>
+		<trDefine title='Pointstick'>-</trDefine>
+		<trDefine title='GPS'>GPS</trDefine>
+		<trDefine title='Tpm modul'>TPM</trDefine>
+		<trDefine title='Kijelző3D képesség'>TFT 3D</trDefine>
+		<trDefine title='Első háttértár'>HDD</trDefine>
+		<trDefine title='Második háttértár'>HDD 2</trDefine>
+		<trDefine title='Második tipusa'>HDD 2 Típus</trDefine>
+		<trDefine title='S/PDIF'>SPDIF</trDefine>
+	</shopTransliterateParameters>
+	<shopParameterOrder>
+		<poName>TermékNév</poName>
+		<poName>Ár</poName>
+		<poName>TFT</poName>
+		<poName>TFT Szabány</poName>
+		<poName>TFT Méret</poName>
+		<poName>TFT Méret +</poName>
+		<poName>TFT Felb.</poName>
+		<poName>TFT X</poName>
+		<poName>TFT Y</poName>
+		<poName>TFT Arány</poName>
+		<poName>TFT Típus</poName>
+		<poName>TFT Touch</poName>
+		<poName>TFT Fok</poName>
+		<poName>TFT Színhű</poName>
+		<poName>CPU</poName>
+		<poName>CPU Gyártó</poName>
+		<poName>CPU Család</poName>
+		<poName>CPU Magok</poName>
+		<poName>CPU Frek.</poName>
+		<poName>CPU Turbo</poName>
+		<poName>CPU SS</poName>
+		<poName>CPU Cache</poName>
+		<poName>CPU RAM Max</poName>
+		<poName>CPU 64</poName>
+		<poName>CPU Tech</poName>
+		<poName>CPU Wh</poName>
+		<poName>CPU Virt</poName>
+		<poName>CPU HT</poName>
+		<poName>RAM</poName>
+		<poName>RAM Méret</poName>
+		<poName>RAM Típus</poName>
+		<poName>HDD</poName>
+		<poName>HDD Típus</poName>
+		<poName>HDD 2</poName>
+		<poName>HDD 2 Típus</poName>
+		<poName>GPU</poName>
+		<poName>GPU Gyártó</poName>
+		<poName>GPU Család</poName>
+		<poName>GPU Típus</poName>
+		<poName>GPU Mem</poName>
+		<poName>GPU Mem Típus</poName>
+		<poName>GPU Tech</poName>
+		<poName>GPU DX</poName>
+		<poName>GPU Shader</poName>
+		<poName>GPU OGL</poName>
+		<poName>Súly</poName>
+		<poName>Akku</poName>
+		<poName>Akku Cella</poName>
+		<poName>Akku Wh</poName>
+		<poName>Akku Típus</poName>
+		<poName>Akku Idő</poName>
+		<poName>ODD</poName>
+		<poName>ODD Hely</poName>
+		<poName>ODD CD</poName>
+		<poName>ODD DVD</poName>
+		<poName>ODD BR</poName>
+		<poName>OS</poName>
+		<poName>OS Család</poName>
+		<poName>OS Típus</poName>
+		<poName>OS Nyelv</poName>
+		<poName>OS 32/64</poName>
+		<poName>Modell</poName>
+	</shopParameterOrder>
+	<prepareProduct><![CDATA[
+		$product['#ctl00_CON_default_UCO_CikkReszletek1_RPT_reszletek_ctl00_PAN_reszl div:contains("Fizet") script']->remove();
+		$myList = $product['ul.specifikacio li'];
+		foreach ($myList as $listItem) {
+			if (pq($listItem)->find('ul')->length > 0) {
+				$pre = helper::clean(pq($listItem)->find('> .nsCrMatmod')->text());
+				$subList = pq($listItem)->find('li .nsCrMatmod');
+				foreach ($subList as $subItem) {
+					pq($subItem)->html($pre . pq($subItem)->html());
+				}
+			}
+		}
+	]]></prepareProduct>
+</shop>
